@@ -3,12 +3,12 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "test": "vitest",
-    "test:bench": "vitest benchmark",
-    "test:coverage": "vitest run --coverage",
-    "test:debug": "vitest run --inspect-brk --no-threads",
+    "commit": "bun run format && cz",
     "format": "prettier --write ./src/",
-    "commit": "bun run format && cz"
+    "test": "vitest",
+    "test:bench": "vitest bench",
+    "test:coverage": "vitest run --coverage",
+    "test:debug": "vitest run --inspect-brk --no-threads"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^0.34.2",
