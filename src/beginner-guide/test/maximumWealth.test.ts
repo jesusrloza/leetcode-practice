@@ -17,7 +17,7 @@ describe('maximumWealth', () => {
         [1, 5],
         [7, 3],
         [3, 5],
-      ])
+      ]),
     ).toBe(10)
   })
 
@@ -27,7 +27,7 @@ describe('maximumWealth', () => {
         [-1, -5],
         [7, -3],
         [3, 5],
-      ])
+      ]),
     ).toBe(8)
   })
 })
@@ -48,7 +48,7 @@ describe('maximumWealth B', () => {
         [1, 5],
         [7, 3],
         [3, 5],
-      ])
+      ]),
     ).toBe(10)
   })
 
@@ -58,7 +58,7 @@ describe('maximumWealth B', () => {
         [-1, -5],
         [7, -3],
         [3, 5],
-      ])
+      ]),
     ).toBe(8)
   })
 })

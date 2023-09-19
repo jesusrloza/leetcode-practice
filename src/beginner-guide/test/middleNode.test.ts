@@ -12,10 +12,7 @@ describe('middleNode A', () => {
   })
 
   it('should return the second middle node for a list with even length', () => {
-    const head = new ListNode(
-      1,
-      new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6)))))
-    )
+    const head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6))))))
 
     expect(middleNodeA(head)).toEqual(new ListNode(4, new ListNode(5, new ListNode(6))))
   })
@@ -37,10 +34,7 @@ describe('middleNode B', () => {
   })
 
   it('should return the second middle node for a list with even length', () => {
-    const head = new ListNode(
-      1,
-      new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6)))))
-    )
+    const head = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, new ListNode(6))))))
 
     expect(middleNodeB(head)).toEqual(new ListNode(4, new ListNode(5, new ListNode(6))))
   })

@@ -8,7 +8,7 @@ describe('runningSum', () => {
     for (let i = 0; i < reps; i++) {
       canConstructA(
         `we have your dog`,
-        `we have your dog's best interest in mind, call now for a discount on your dog's health insurance`
+        `we have your dog's best interest in mind, call now for a discount on your dog's health insurance`,
       )
     }
   })
@@ -17,7 +17,7 @@ describe('runningSum', () => {
     for (let i = 0; i < reps; i++) {
       canConstructB(
         `we have your dog`,
-        `we have your dog's best interest in mind, call now for a discount on your dog's health insurance`
+        `we have your dog's best interest in mind, call now for a discount on your dog's health insurance`,
       )
     }
   })
